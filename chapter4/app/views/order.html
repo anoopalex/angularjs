@@ -1,0 +1,14 @@
+<h1>Orders</h1>
+<table class="three-column-table">
+	<tr>
+		<th>Name</th>
+		<th>Quantity</th>
+		<th>Cost</th>
+	</tr>
+	<tr ng-repeat="order in orders">
+		<td>{{order.name}}</td>
+		<td>{{order.quantity}}</td>
+		<td>{{order.cost | currency}}</td>
+	</tr>
+</table>
+<p><a href="/AngularJSJumpStart-tests/chapter4/test.html">Go back</a></p>

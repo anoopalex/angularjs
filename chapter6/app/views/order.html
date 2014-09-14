@@ -1,0 +1,14 @@
+<h1>{{title}}: {{customer.name}}</h1>
+<table class="table table-striped" id="orders-table">
+	<tr>
+		<th>Name</th>
+		<th>Quantity</th>
+		<th>Cost</th>
+	</tr>
+	<tr ng-repeat="order in orders" class="repeat-animation">
+		<td>{{order.name}}</td>
+		<td>{{order.quantity}}</td>
+		<td>{{order.cost | currency}}</td>
+	</tr>
+</table>
+<p><a href="/AngularJSJumpStart-tests/chapter6/index.html">Go back</a></p>

@@ -11,3 +11,31 @@ input[type=text] {
 	padding: 3px 4px;
 	color: #888;
 }
+
+table {
+	border: 1px solid #999;
+	border-collapse: collapse;
+	width: 600px;
+}
+
+td,th {
+	border: 1px solid #999;
+	padding: 5px 20px;
+	text-align: center;
+}
+
+.three-column-table td, .three-column-table th {
+	width: 33%;
+}
+
+.four-column-table td, .four-column-table th {
+	width: 25%;
+}
+
+.five-column-table td, .five-column-table th {
+	width: 20%;
+}
+
+th {
+	cursor: pointer;
+}

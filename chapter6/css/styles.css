@@ -1,0 +1,50 @@
+.main-section {
+	max-width: 900px;
+	margin: auto;
+	padding: 0 10px;
+}
+
+/*      customers table columns widths      */
+
+#customers-table td:nth-child(1),
+#customers-table th:nth-child(1) {
+	width: 30%;
+}
+
+#customers-table td:nth-child(2),
+#customers-table th:nth-child(2) {
+	width: 15%;
+}
+
+#customers-table td:nth-child(3),
+#customers-table th:nth-child(3) {
+	width: 15%;
+}
+
+#customers-table td:nth-child(4),
+#customers-table th:nth-child(4) {
+	width: 20%;
+}
+
+#customers-table td:nth-child(5),
+#customers-table th:nth-child(5) {
+	width: 20%;
+}
+
+
+/*      orders table columns widths      */
+
+#orders-table td:nth-child(1),
+#orders-table th:nth-child(1) {
+	width: 45%;
+}
+
+#orders-table td:nth-child(2),
+#orders-table th:nth-child(2) {
+	width: 25%;
+}
+
+#orders-table td:nth-child(3),
+#orders-table th:nth-child(3) {
+	width: 30%;
+}
